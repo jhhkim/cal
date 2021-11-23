@@ -38,7 +38,8 @@ public class Main {
 				Cal cd = new Cal();
 				int res = cd.div(n1, n2);
 				System.out.println("나눗셈 결과는 "+res+"입니다.");	
-			}
+			}/*원하는 연산의 번호를 고를때 1~3외의 번호를 입력하면 모두 나눗셈 연산을 시행하게 됨
+			1~4가 아닌 숫자를 입력하면 "올바른 번호를 고르십시오."라고 띄운 뒤 다시 연산번호 고를 수 있게 하려면 어떻게?*/
 			
 			System.out.println("다시 계산하시겠습니까?\n1.네 2.아니오");
 				int re = scan.nextInt();
